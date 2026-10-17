@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>주식회사 에스에이치조경 | SH LANDSCAPE - 자연과 공간을 잇는 조경</title>
+  <meta name="description" content="주식회사 에스에이치조경 공식 웹사이트. 건축 조경, 조경 식재, 수목 전정, 녹지 예초 전문. 정직한 시공과 책임 관리로 공간의 가치를 높입니다.">
+  <meta name="keywords" content="에스에이치조경, SH조경, 조경공사, 조경식재, 수목전정, 예초작업, 조경시설물, 영천조경, 대구조경, 경북조경">
+  <meta name="author" content="주식회사 에스에이치조경">
+
+  <!-- Open Graph / SNS 공유 메타태그 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="주식회사 에스에이치조경 | SH LANDSCAPE">
+  <meta property="og:description" content="자연과 공간을 잇는 조경 - 식재부터 조경시설물, 전정과 예초까지 공간의 가치를 높입니다.">
+  <meta property="og:image" content="./assets/images/og-image.jpg">
+  <meta property="og:locale" content="ko_KR">
+
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/png" href="./assets/logo/logo.png">
+
+  <!-- 스타일시트 -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- 웹 접근성 건너뛰기 링크 -->
+  <a href="#mainContent" class="skip-link">본문 바로가기</a>
+
+  <!-- ========================================================================
+       ① 상단 헤더
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="site-brand" aria-label="에스에이치조경 메인으로 이동">
+        <img 
+          src="./assets/logo/logo.png" 
+          alt="㈜에스에이치조경 로고" 
+          class="site-logo" 
+          width="134" 
+          height="42"
+        >
+        <div class="brand-text">
+          <span class="brand-name">㈜에스에이치조경</span>
+          <span class="brand-sub">SH LANDSCAPE</span>
+        </div>
+      </a>
+
+      <!-- 데스크톱 내비게이션 -->
+      <nav class="main-nav" aria-label="주요 메뉴">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">회사소개</a></li>
+          <li><a href="#services" class="nav-link">사업분야</a></li>
+          <li><a href="#projects" class="nav-link">시공사례</a></li>
+          <li><a href="#consultation" class="nav-link">상담안내</a></li>
+          <li><a href="#location" class="nav-link">오시는 길</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:010-4604-3484" class="btn btn-primary header-call-btn sh-tel-link" aria-label="전화 상담 연결: 010-4604-3484">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span>전화상담</span>
+        </a>
+
+        <!-- 모바일 햄버거 토글 버튼 -->
+        <button 
+          class="mobile-toggle" 
+          id="mobileToggle" 
+          type="button" 
+          aria-label="모바일 메뉴 열기" 
+          aria-expanded="false" 
+          aria-controls="mobileDrawer"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 모바일 내비게이션 드로어 -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-label="모바일 전체 메뉴">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">회사소개</a></li>
+        <li><a href="#services" class="mobile-nav-link">사업분야</a></li>
+        <li><a href="#projects" class="mobile-nav-link">시공사례</a></li>
+        <li><a href="#consultation" class="mobile-nav-link">상담안내</a></li>
+        <li><a href="#location" class="mobile-nav-link">오시는 길</a></li>
+      </ul>
+
+      <div class="mobile-drawer-contact">
+        <p>조경 시공 및 견적 상담 문의</p>
+        <a href="tel:010-4604-3484" class="btn btn-primary mobile-drawer-btn sh-tel-link">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span>010-4604-3484 전화걸기</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       메인 콘텐츠 영역
+       ======================================================================== -->
+  <main id="mainContent">
+
+    <!-- ======================================================================
+         ② 메인 히어로 섹션
+         ====================================================================== -->
+    <section class="hero-section" id="hero" aria-label="메인 비주얼">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-tagline">
+            <span>주식회사 에스에이치조경 · SH LANDSCAPE</span>
+          </div>
+          <h1 class="hero-title">자연과 공간을 잇는 조경</h1>
+          <p class="hero-subtitle">
+            식재부터 조경시설물, 전정과 예초까지.<br>
+            정직한 시공과 축적된 현장 경험으로 공간의 가치를 높이는 에스에이치조경입니다.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-white">
+              <span>시공사례 보기</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+            <a href="tel:010-4604-3484" class="btn btn-white-outline sh-tel-link" aria-label="대표전화로 상담하기">
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>전화 상담 (010-4604-3484)</span>
+            </a>
+          </div>
+
+          <div class="hero-notice">
+            <div class="hero-notice-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>조경식재·시설물공사업 전문</span>
+            </div>
+            <div class="hero-notice-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>본사 농장 교목류 자체 보유</span>
+            </div>
+            <div class="hero-notice-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>기초 시공부터 정기 유지관리까지</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ③ 회사소개 (About)
+         ====================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Company Introduction</span>
+          <h2 class="section-title">정직한 시공으로 공간의 가치를 높입니다</h2>
+          <p class="section-desc">
+            (주)에스에이치조경은 탄탄한 시공 능력과 성실한 주인의식을 바탕으로 자연과 건축이 조화를 이루는 푸른 환경을 만듭니다.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <h3 class="about-lead">
+              “정직함이 최고의 방침(Honesty is the best policy)이라는 신념으로 고객과 마주합니다.”
+            </h3>
+            <p class="about-paragraph">
+              (주)에스에이치조경은 고객만족, 품질우선, 성실시공, 주인의식을 경영방침으로 삼아 조경 분야에서 신뢰할 수 있는 실적을 쌓아온 전문 조경기업입니다. 변화하는 현장 여건과 발주처의 다양한 요구에 맞춰 가장 안전하고 완성도 높은 시공 결과를 약속드립니다.
+            </p>
+            <p class="about-paragraph">
+              건축 준공 조경, 아파트 특화 석가산, 성당 및 종교시설 정비, 리조트·한옥 정원 조성부터 공공기관 수목 전정과 군부대 대규모 예초작업까지 폭넓은 현장 수행력을 갖추고 있습니다. 현재 경북 영천 본사에 다양한 교목류를 직접 보유하여 확실한 식재 품질과 지속적인 유지관리를 실현합니다.
+            </p>
+          </div>
+
+          <div class="about-media">
+            <div class="about-image-wrapper">
+              <img 
+                src="./assets/images/about-sunlight.jpg" 
+                alt="에스에이치조경 수목과 따스한 햇살이 어우러진 조경 현장" 
+                class="about-image" 
+                loading="lazy" 
+                width="600" 
+                height="380"
+              >
+            </div>
+            <div class="about-media-badge">
+              <strong>SH LANDSCAPE</strong>
+              <span>본사 농장 교목류 보유 및 철저한 현장 시공</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5대 경영 가치 -->
+        <div class="values-container">
+          <h4 class="values-title">에스에이치조경이 지켜가는 5가지 약속</h4>
+          <div class="values-grid" id="valuesGrid">
+            <!-- JavaScript 렌더링 -->
+          </div>
+        </div>
+
+        <!-- 기업 기본 정보 테이블 -->
+        <div class="company-info-card">
+          <h4>
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true" style="fill: var(--color-leaf);"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            <span>기업 기본 개요</span>
+          </h4>
+          <div class="company-info-grid">
+            <div class="info-item">
+              <span class="info-label">정식 회사명</span>
+              <span class="info-value sh-legal-name">주식회사 에스에이치조경</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">대표이사</span>
+              <span class="info-value sh-ceo-text">이승훈</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">법인 설립일</span>
+              <span class="info-value">2022년 6월 17일 <small style="color: var(--color-text-muted);">(이전 이력: 2017년 3월 17일 성우건기)</small></span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">사업 분야</span>
+              <span class="info-value">조경식재·시설물공사업 (업태: 건설업)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">주요 업무</span>
+              <span class="info-value">건축 준공 조경, 조경 식재, 수목 전정 작업, 녹지 예초 작업</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">사업장 소재지</span>
+              <span class="info-value sh-address-text">경상북도 영천시 청통면 치일들길 140</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ④ 사업분야 (Services)
+         ====================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Our Services</span>
+          <h2 class="section-title">공간의 특성에 맞춘 전문 조경 서비스</h2>
+          <p class="section-desc">
+            건축물과 조화를 이루는 외부 공간 설계·시공부터 지속적인 수목 생육 관리까지, 에스에이치조경이 체계적으로 수행합니다.
+          </p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid">
+          <!-- JavaScript 렌더링 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ⑤ 시공사례 (Projects)
+         ====================================================================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portfolio</span>
+          <h2 class="section-title">신뢰로 검증된 대표 시공사례</h2>
+          <p class="section-desc">
+            종교시설, 사옥, 주거단지, 풀빌라, 군부대 녹지 정비까지 에스에이치조경이 직접 시공한 실제 현장 기록입니다.
+          </p>
+        </div>
+
+        <!-- 분류 필터 바 -->
+        <div class="projects-filter-bar" role="tablist" aria-label="시공사례 분류 필터">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">
+            <span>전체</span>
+            <span class="filter-count">12</span>
+          </button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="construction">
+            <span>조경시공</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="planting">
+            <span>식재·전정</span>
+            <span class="filter-count">0</span>
+          </button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="maintenance">
+            <span>예초·관리</span>
+            <span class="filter-count">0</span>
+          </button>
+        </div>
+
+        <!-- 시공사례 그리드 -->
+        <div class="projects-grid" id="projectsGrid" aria-live="polite">
+          <!-- JavaScript 렌더링 -->
+        </div>
+
+        <!-- 더 보기 버튼 -->
+        <div class="projects-action-box" id="projectsActionBox">
+          <button class="btn btn-outline load-more-btn" id="loadMoreBtn" type="button">
+            <span>시공사례 더 보기 (+6개)</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ⑥ 상담 안내 (Consultation)
+         ====================================================================== -->
+    <section class="section" id="consultation">
+      <div class="container">
+        <div class="consult-card">
+          <div class="consult-left">
+            <span class="hero-tagline" style="margin-bottom: 16px;">Contact & Consultation</span>
+            <h3>계획하고 계신 공간을 들려주세요</h3>
+            <p class="consult-lead">
+              견적 문의부터 현장 실측 상담까지 친절하고 신속하게 답변해 드립니다.<br>
+              아래 항목을 미리 확인해 주시면 더욱 정확한 맞춤 상담이 가능합니다.
+            </p>
+
+            <div class="consult-checklist">
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                <span><strong>공사 예정 지역</strong> (대구·경북 및 전국 현장 위치)</span>
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                <span><strong>희망 작업 종류</strong> (건축 준공조경, 수목 식재, 전정 작업, 예초 작업 등)</span>
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                <span><strong>현장 사진 및 현황</strong> (현재 부지 상태 또는 기존 수목 현황)</span>
+              </div>
+              <div class="checklist-item">
+                <span class="checklist-icon">✓</span>
+                <span><strong>희망 일정</strong> (착공 희망일 및 준공 기한)</span>
+              </div>
+            </div>
+
+            <div class="consult-actions">
+              <a href="tel:010-4604-3484" class="btn btn-white sh-tel-link" aria-label="전화로 바로 상담하기">
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <span>전화 상담하기</span>
+              </a>
+              <a href="mailto:shlandscape@hanmail.net" class="btn btn-white-outline sh-mail-link" aria-label="이메일로 문의하기">
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                <span>이메일 문의하기</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="consult-right">
+            <h4 class="consult-direct-title">직접 연락처 안내</h4>
+            <div class="direct-contact-list">
+              <div class="direct-item">
+                <div class="direct-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                </div>
+                <div>
+                  <span class="direct-text-label">대표 전화</span>
+                  <a href="tel:010-4604-3484" class="direct-text-value sh-tel-link">010-4604-3484</a>
+                </div>
+              </div>
+
+              <div class="direct-item">
+                <div class="direct-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <div>
+                  <span class="direct-text-label">이메일 문의</span>
+                  <a href="mailto:shlandscape@hanmail.net" class="direct-text-value sh-mail-link">shlandscape@hanmail.net</a>
+                </div>
+              </div>
+
+              <div class="direct-item">
+                <div class="direct-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M19 8h-1V3H6v5H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zM8 5h8v3H8V5zm8 12v2H8v-4h8v2zm2-2v-2H4v-4c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v6h-2z"/></svg>
+                </div>
+                <div>
+                  <span class="direct-text-label">팩스 번호</span>
+                  <span class="direct-text-value" style="font-size: 1.05rem;">054-332-3485</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="direct-note">
+              ※ 현장 시공 중에는 통화가 어려울 수 있으니 문자메시지 또는 이메일로 현장 개요를 남겨주시면 확인 즉시 연락드리겠습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ⑦ 오시는 길 (Location)
+         ====================================================================== -->
+    <section class="section section-alt" id="location">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Location</span>
+          <h2 class="section-title">오시는 길</h2>
+          <p class="section-desc">
+            경상북도 영천시 청통면에 위치한 본사와 교목류 보유 농장으로 방문을 환영합니다.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-info-card">
+            <div class="location-address-box">
+              <span class="location-tag">본사 및 농장 소재지</span>
+              <p class="location-address-text sh-address-text">
+                경상북도 영천시 청통면 치일들길 140
+              </p>
+              
+              <div class="location-copy-row">
+                <button type="button" class="btn btn-outline copy-btn" id="copyAddressBtn">
+                  <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                  <span>주소 복사</span>
+                </button>
+                <span class="copy-toast" id="copyToast" role="status" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="location-map-links">
+              <h4 class="map-links-title">외부 지도 서비스로 길찾기</h4>
+              <div class="map-btns-row">
+                <a 
+                  id="kakaoMapBtn" 
+                  href="https://map.kakao.com/link/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%ED%86%B5%EB%A9%B4%20%EC%B9%98%EC%9D%BC%EB%93%A4%EA%B8%B8%20140" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="btn map-link-btn btn-kakao"
+                >
+                  <span>카카오맵에서 보기</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+                <a 
+                  id="naverMapBtn" 
+                  href="https://map.naver.com/v5/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%ED%86%B5%EB%A9%B4%20%EC%B9%98%EC%9D%BC%EB%93%A4%EA%B8%B8%20140" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="btn map-link-btn btn-naver"
+                >
+                  <span>네이버지도에서 보기</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-visual-card">
+            <div class="visual-map-image-box">
+              <img 
+                src="./assets/images/company-farm.jpg" 
+                alt="에스에이치조경 영천 본사 농장 전경 사진" 
+                class="visual-map-img" 
+                loading="eager" 
+                width="600" 
+                height="280"
+              >
+              <div class="visual-map-overlay">
+                <span class="visual-map-badge">SH조경 본사 및 보유 농장 전경</span>
+              </div>
+            </div>
+            <div class="visual-map-body">
+              <h4>방문 안내 및 상담 사전 예약</h4>
+              <p>
+                수목 직접 검수 및 대형목 식재 상담을 원하시는 경우, 사전 전화 예약을 통해 일정 조율 후 편안하게 방문해 주시기 바랍니다.
+              </p>
+              <p style="margin-top: 10px; font-size: 0.86rem; color: var(--color-text-muted);">
+                <strong>교통편:</strong> 청통와촌IC 인근 · 내비게이션에 ‘경상북도 영천시 청통면 치일들길 140’ 검색
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       ⑧ 푸터 (Footer)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img 
+            src="./assets/logo/logo-white.png" 
+            alt="㈜에스에이치조경 화이트 로고" 
+            class="footer-logo" 
+            width="134" 
+            height="38"
+          >
+          <p class="footer-brand-name">주식회사 에스에이치조경</p>
+          <p class="footer-brand-motto">
+            HONESTY IS THE BEST POLICY<br>
+            정직하고 완벽한 시공능력을 가지고 있는 조경전문기업입니다.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="푸터 링크">
+          <a href="#about" class="footer-nav-link">회사소개</a>
+          <a href="#services" class="footer-nav-link">사업분야</a>
+          <a href="#projects" class="footer-nav-link">시공사례</a>
+          <a href="#consultation" class="footer-nav-link">상담안내</a>
+          <a href="#location" class="footer-nav-link">오시는 길</a>
+        </nav>
+      </div>
+
+      <div class="footer-mid">
+        <div class="footer-info-row">
+          <strong>회사명:</strong>
+          <span class="sh-legal-name">주식회사 에스에이치조경</span>
+        </div>
+        <div class="footer-info-row">
+          <strong>대표이사:</strong>
+          <span class="sh-ceo-text">이승훈</span>
+        </div>
+        <div class="footer-info-row">
+          <strong>본사 주소:</strong>
+          <span class="sh-address-text">경상북도 영천시 청통면 치일들길 140</span>
+        </div>
+        <div class="footer-info-row">
+          <strong>전화:</strong>
+          <a href="tel:010-4604-3484" class="sh-tel-link" style="color: inherit;">010-4604-3484</a>
+        </div>
+        <div class="footer-info-row">
+          <strong>팩스:</strong>
+          <span>054-332-3485</span>
+        </div>
+        <div class="footer-info-row">
+          <strong>이메일:</strong>
+          <a href="mailto:shlandscape@hanmail.net" class="sh-mail-link" style="color: inherit;">shlandscape@hanmail.net</a>
+        </div>
+        <div class="footer-info-row" style="grid-column: 1 / -1;">
+          <strong>업태/종목:</strong>
+          <span>건설업 · 조경식재·시설물공사업</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> 주식회사 에스에이치조경 (SH LANDSCAPE). All rights reserved.</p>
+        <p>본 사이트의 모든 시공 사진 및 콘텐츠는 (주)에스에이치조경의 자산입니다.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       ⑨ 모바일 하단 고정 상담 바
+       ======================================================================== -->
+  <aside class="mobile-bottom-bar" aria-label="모바일 하단 빠른 상담">
+    <div class="mobile-bottom-inner">
+      <a href="tel:010-4604-3484" class="mobile-bar-btn mobile-bar-call sh-tel-link" aria-label="전화 상담 연결">
+        <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span>전화상담</span>
+      </a>
+      <a href="#projects" class="mobile-bar-btn mobile-bar-project">
+        <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+        <span>시공사례</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       시공사례 상세 모달 (Accessible Modal Dialog)
+       ======================================================================== -->
+  <div 
+    class="modal-backdrop" 
+    id="projectModal" 
+    role="dialog" 
+    aria-modal="true" 
+    aria-hidden="true" 
+    aria-labelledby="modalTitle"
+  >
+    <div class="modal-container" role="document">
+      <button 
+        type="button" 
+        class="modal-close-btn" 
+        id="modalCloseBtn" 
+        aria-label="상세보기 닫기 (ESC)"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+
+      <div class="modal-image-box">
+        <img src="" alt="" id="modalImage" class="modal-image">
+      </div>
+
+      <div class="modal-body">
+        <span class="modal-category-tag" id="modalCategoryTag">조경시공</span>
+        <h3 class="modal-title" id="modalTitle">프로젝트명</h3>
+        <p class="modal-feature" id="modalFeature">공사 특징</p>
+
+        <div class="modal-meta-grid">
+          <div class="modal-meta-row">
+            <span class="modal-meta-label">공사기간</span>
+            <span class="modal-meta-val" id="modalPeriod">-</span>
+          </div>
+          <div class="modal-meta-row">
+            <span class="modal-meta-label">현장위치</span>
+            <span class="modal-meta-val" id="modalLocation">-</span>
+          </div>
+          <div class="modal-meta-row" style="grid-column: 1 / -1;">
+            <span class="modal-meta-label">발주처</span>
+            <span class="modal-meta-val" id="modalClient">-</span>
+          </div>
+        </div>
+
+        <h4 class="modal-desc-title">시공 상세 내용</h4>
+        <p class="modal-desc" id="modalDesc">-</p>
+
+        <div class="modal-footer-actions">
+          <a href="tel:010-4604-3484" class="btn btn-primary sh-tel-link" id="modalCallBtn">
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span>이 공사 관련 전화 상담</span>
+          </a>
+          <button type="button" class="btn btn-outline modal-close-footer-btn" id="modalCloseFooterBtn">
+            닫기
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 자바스크립트 -->
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
